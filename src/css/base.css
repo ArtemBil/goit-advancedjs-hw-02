@@ -30,3 +30,44 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+/* Task 1 */
+.timer {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.timer .value {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.timer .label {
+  text-transform: uppercase;
+}
+
+/* Task 2 */
+.form  {
+  width: max-content;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form button {
+  width: 100%;
+}
+
+.form  input {
+  padding: 12px;
+  font-size: 16px;
+}
